@@ -1,0 +1,47 @@
+.bg-custom{
+	background: #795548;	
+}
+.search{
+	width: 30%;
+}
+
+.navbar{
+	font-size: 18px;
+	padding: 10px;
+}
+.nav-item{
+	font-size: 15px;
+	color: white;
+}
+.nav-link{
+	color: white;
+}
+
+.navbar-custom .nav-item:hover{
+	border-bottom:  2px solid white;
+}
+.bg-body{
+	background-image: linear-gradient(to right top, #9d4925, #ad5d2d, #bd7237, #cc8741, #da9d4d, #da9d4d, #da9d4d, #da9d4d, #cc8741, #bd7237, #ad5d2d, #9d4925); 
+	background-repeat:no-repeat ;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.input-style {
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 5px 10px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 0%;
+  transition: border-bottom-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-style:focus {
+  border-bottom-color: #a1887f; /* Change to your preferred focus color */
+  box-shadow: 0 1px 5px #a1887f;
+}
+
+.input-style:hover {
+  border-bottom-color: #555; /* Slight color change on hover */ 
+}
+
